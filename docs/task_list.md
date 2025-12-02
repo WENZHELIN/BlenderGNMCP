@@ -1,6 +1,7 @@
 # 專案開發任務清單
 
-建立可循序執行、可更新的任務清單，讓代理能逐步完成整個 Blender Geometry Nodes MCP 外掛開發。完成任務後請將該項目移至「已完成」，並在必要時新增後續任務。
+建立可循序執行、可更新的任務清單，讓代理能逐步完成整個 Blender Geometry Nodes MCP 外掛開發。完成任務後請將該項目移至「已完成」，
+並在必要時新增後續任務。
 
 ## 待完成
 - [ ] 核對 MCP 通訊需求並決定初版傳輸方式（stdio 或 WebSocket），給出選擇理由與安全性注意事項。
@@ -13,4 +14,5 @@
 - [ ] 打包與發佈流程：版本號規劃、CHANGELOG 範本、最低支援 Blender 版本確認。
 
 ## 已完成
-- [ ] 初版開發計畫與 MCP 能力草案（見 `docs/development_plan.md` 與 `docs/mcp_geometry_nodes.md`）。
+- [x] 初版開發計畫與 MCP 能力草案（見 `docs/development_plan.md` 與 `docs/mcp_geometry_nodes.md`）。
+- [x] 專案總覽與目錄架構框架（見 `docs/project_overview.md`）。
