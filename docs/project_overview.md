@@ -14,7 +14,7 @@
 - **開發運維層**：打包、版本管理、測試自動化、範例與文件。
 
 ## 3. 建議目錄結構
-此結構將在實作時逐步落地；尚未存在的目錄會在對應任務完成時建立。
+下列骨架已建立，後續功能會在對應模組中補齊。
 
 ```
 / (專案根目錄)
@@ -24,7 +24,7 @@
 │   ├── mcp_geometry_nodes.md
 │   ├── project_overview.md
 │   └── task_list.md
-├── addon/                         # Blender 外掛主體（待建立）
+├── addon/                         # Blender 外掛主體
 │   ├── __init__.py                # Addon 註冊、入口、偏好設定
 │   ├── mcp_server.py              # MCP 通訊入口（stdio/WebSocket）
 │   ├── capabilities.py            # list_capabilities 與能力宣告
@@ -32,10 +32,10 @@
 │   ├── node_ops.py                # 節點增刪改連接與檢查
 │   ├── ui/                        # 偏好設定、面板、快捷工具
 │   └── tests/                     # 針對 addon 的單元/整合測試
-├── scripts/                       # 頭less 測試與範例指令（待建立）
-├── examples/                      # MCP 互動範例與節點模板（待建立）
-├── tools/                         # 開發輔助工具、打包/發布腳本（待建立）
-└── CHANGELOG.md                   # 版本更新（待建立）
+├── scripts/                       # 頭less 測試與範例指令
+├── examples/                      # MCP 互動範例與節點模板
+├── tools/                         # 開發輔助工具、打包/發布腳本
+└── CHANGELOG.md                   # 版本更新
 ```
 
 ## 4. 模組責任與邊界

@@ -16,3 +16,4 @@
 ## 已完成
 - [x] 初版開發計畫與 MCP 能力草案（見 `docs/development_plan.md` 與 `docs/mcp_geometry_nodes.md`）。
 - [x] 專案總覽與目錄架構框架（見 `docs/project_overview.md`）。
+- [x] 建立建議目錄骨架（新增 `addon/`, `scripts/`, `examples/`, `tools/` 與占位檔）。
