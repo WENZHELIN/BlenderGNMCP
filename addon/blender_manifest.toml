@@ -1,0 +1,11 @@
+schema_version = "1.0.0"
+id = "geometry_nodes_mcp"
+version = "0.1.0"
+name = "Geometry Nodes MCP"
+tagline = "Model Context Protocol server for conversational Geometry Nodes automation"
+maintainer = "OpenAI"
+type = "add-on"
+tags = ["Development", "Nodes", "Automation"]
+blender_version_min = "4.2.0"
+license = "MIT"
+website = "https://github.com/your-org/geometry-nodes-mcp"

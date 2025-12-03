@@ -9,7 +9,7 @@ MCP server and Blender add-on skeleton for Geometry Nodes automation.
 
 ## Installation
 1. Download or clone this repository.
-2. Create a zip of the `addon/` directory (e.g., `zip -r geometry_nodes_mcp.zip addon`).
+2. Create a zip of the `addon/` directory (e.g., `zip -r geometry_nodes_mcp.zip addon`). The archive will include the `blender_manifest.toml` required by Blender 4.2+ along with the add-on package.
 3. In Blender, open **Edit → Preferences → Add-ons → Install…** and select the generated zip.
 4. Enable **Geometry Nodes MCP** in the add-on list. The add-on will start its MCP server using the configured transport (stdio by default).
 

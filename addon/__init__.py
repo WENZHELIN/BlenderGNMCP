@@ -1,5 +1,15 @@
 """Blender Geometry Nodes MCP add-on entrypoint."""
 
+bl_info = {
+    "name": "Geometry Nodes MCP",
+    "author": "OpenAI",
+    "version": (0, 1, 0),
+    "blender": (4, 2, 0),
+    "location": "N/A (MCP-managed)",
+    "description": "Model Context Protocol server for conversational Geometry Nodes automation",
+    "category": "Development",
+}
+
 from __future__ import annotations
 
 import importlib.util
